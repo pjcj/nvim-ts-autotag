@@ -16,6 +16,7 @@ M.tbl_filetypes = {
     'htmldjango',
     'eruby',
     'templ',
+    'tt2htmnl',
 }
 
 -- stylua: ignore
@@ -33,6 +34,7 @@ local HTML_TAG = {
         'markdown',
         'php',
         'xml',
+        'tt2html',
     },
     start_tag_pattern      = { 'start_tag' },
     start_name_tag_pattern = { 'tag_name' },
